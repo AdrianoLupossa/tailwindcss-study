@@ -19,6 +19,7 @@ const Header = ({ ...otherProps }) => {
         <div
           className={`
           md:hidden uppercase
+          cursor-pointer
         `}
           onClick={handleMenu}
         >
@@ -35,7 +36,7 @@ const Header = ({ ...otherProps }) => {
             <li className="list-none md:mr-5">
               <Link
                 to="#!"
-                className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer
+                className="flex w-full text-base uppercase hover:text-teal-600 cursor-pointer
                   pt-2.5 px-2.5
                 "
               >
@@ -45,7 +46,7 @@ const Header = ({ ...otherProps }) => {
             <li className="list-none md:mr-5">
               <Link
                 to="#!"
-                className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer
+                className="flex w-full text-base uppercase hover:text-teal-600 cursor-pointer
                   pt-2.5 px-2.5
                 "
               >
@@ -55,7 +56,7 @@ const Header = ({ ...otherProps }) => {
             <li className="list-none md:mr-5">
               <Link
                 to="#!"
-                className="flex w-full text-base uppercase hover:text-red-600 cursor-pointer
+                className="flex w-full text-base uppercase hover:text-teal-600 cursor-pointer
                   pt-2.5 px-2.5
                 "
               >
